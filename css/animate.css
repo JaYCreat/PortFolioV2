@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.animate {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    filter: blur(8px);
+  }
+
+/* Equpe Jaune #12FF0D */
+
+span:nth-child(1){
+    position: absolute;
+    z-index: 10;
+    background: #12FF0D;
+    box-shadow: 0 0 46px 33px #7cff3f48;
+    border: 2px solid #12FF0D;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+span:nth-child(2){
+    position: absolute;
+    z-index: 100;
+    background: #12FF0D;
+    box-shadow: 0 0 46px 33px #7cff3f48;
+    border: 2px solid #12FF0D;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+span:nth-child(3){
+    position: absolute;
+    z-index: 50;
+    background: #12FF0D;
+    box-shadow: 0 0 46px 33px #7cff3f48;
+    border: 2px solid #12FF0D;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+span:nth-child(4){
+    position: absolute;
+    z-index: 90;
+    background: #12FF0D;
+    box-shadow: 0 0 46px 33px #7cff3f48;
+    border: 2px solid #12FF0D;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+}
+span:nth-child(5){
+    position: absolute;
+    z-index: 5;
+    background: #12FF0D;
+    box-shadow: 0 0 46px 33px #7cff3f48;
+    border: 2px solid #12FF0D;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+/* Equipe vert #307E2E*/
+span:nth-child(6){
+    position: absolute;
+    z-index: 70;
+    background: #307E2E;
+    box-shadow: 0 0 46px 33px #06bd003f;
+    border: 2px solid #307E2E;
+    width: 223px;
+    height: 223px;
+    border-radius: 100%;
+}
+span:nth-child(7){
+    position: absolute;
+    z-index: 120;
+    background: #307E2E;
+    box-shadow: 0 0 46px 33px #06bd003f;
+    border: 2px solid #307E2E;
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+}
+span:nth-child(8){
+    position: absolute;
+    z-index: 40;
+    background: #307E2E;
+    box-shadow: 0 0 46px 33px #06bd003f;
+    border: 2px solid #307E2E;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+/* equipe noir  #2B3D2A */
+
+span:nth-child(9){
+    position: absolute;
+    z-index: 140;
+    background: #2B3D2A;
+    box-shadow: 0 0 46px 33px #45744456;
+    border: 2px solid #2B3D2A;
+    width: 159px;
+    height: 159px;
+    border-radius: 100%;
+}
+span:nth-child(10){
+    position: absolute;
+    z-index: 20;
+    background: #2B3D2A ;
+    border: 2px solid #2B3D2A;
+    width: 247px;
+    height: 247px;
+    border-radius: 100%;
+}
+span:nth-child(11){
+    position: absolute;
+    z-index: 80;
+    background: #2B3D2A ;
+    border: 2px solid #2B3D2A;
+    width: 190px;
+    height: 190px;
+    border-radius: 100%;
+}
+span:nth-child(12){
+    position: absolute;
+    z-index: 30;
+    background: #2B3D2A ;
+    border: 2px solid #2B3D2A;
+    width: 282px;
+    height: 282px;
+    border-radius: 100%;
+}
+
