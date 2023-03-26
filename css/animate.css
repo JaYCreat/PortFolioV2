@@ -7,7 +7,7 @@
 
 
 .animate {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -16,7 +16,7 @@
 
 /* Equpe Jaune #12FF0D */
 
-span:nth-child(1){
+#cercle1{
     position: absolute;
     z-index: 10;
     background: #12FF0D;
@@ -26,7 +26,7 @@ span:nth-child(1){
     height: 300px;
     border-radius: 100%;
 }
-span:nth-child(2){
+#cercle2{
     position: absolute;
     z-index: 100;
     background: #12FF0D;
@@ -36,7 +36,7 @@ span:nth-child(2){
     height: 200px;
     border-radius: 100%;
 }
-span:nth-child(3){
+#cercle3{
     position: absolute;
     z-index: 50;
     background: #12FF0D;
@@ -46,7 +46,7 @@ span:nth-child(3){
     height: 250px;
     border-radius: 100%;
 }
-span:nth-child(4){
+#cercle4{
     position: absolute;
     z-index: 90;
     background: #12FF0D;
@@ -56,7 +56,7 @@ span:nth-child(4){
     height: 125px;
     border-radius: 100%;
 }
-span:nth-child(5){
+#cercle5{
     position: absolute;
     z-index: 5;
     background: #12FF0D;
@@ -68,7 +68,7 @@ span:nth-child(5){
 }
 
 /* Equipe vert #307E2E*/
-span:nth-child(6){
+#cercle6{
     position: absolute;
     z-index: 70;
     background: #307E2E;
@@ -78,7 +78,7 @@ span:nth-child(6){
     height: 223px;
     border-radius: 100%;
 }
-span:nth-child(7){
+#cercle7{
     position: absolute;
     z-index: 120;
     background: #307E2E;
@@ -88,7 +88,7 @@ span:nth-child(7){
     height: 280px;
     border-radius: 100%;
 }
-span:nth-child(8){
+#cercle8{
     position: absolute;
     z-index: 40;
     background: #307E2E;
@@ -101,7 +101,7 @@ span:nth-child(8){
 
 /* equipe noir  #2B3D2A */
 
-span:nth-child(9){
+#cercle9{
     position: absolute;
     z-index: 140;
     background: #2B3D2A;
@@ -111,7 +111,7 @@ span:nth-child(9){
     height: 159px;
     border-radius: 100%;
 }
-span:nth-child(10){
+#cercle10{
     position: absolute;
     z-index: 20;
     background: #2B3D2A ;
@@ -120,7 +120,7 @@ span:nth-child(10){
     height: 247px;
     border-radius: 100%;
 }
-span:nth-child(11){
+#cercle11{
     position: absolute;
     z-index: 80;
     background: #2B3D2A ;
@@ -129,7 +129,7 @@ span:nth-child(11){
     height: 190px;
     border-radius: 100%;
 }
-span:nth-child(12){
+#cercle12{
     position: absolute;
     z-index: 30;
     background: #2B3D2A ;
