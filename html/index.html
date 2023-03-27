@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/animate.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -28,10 +29,10 @@
     <header>
         <nav>
             <ul>
-                <li id="about"><a href="#"><img src="../image/bootstrap-icons-1.10.3/person.svg" alt=""></a></li>
-                <li id="resume"><a href="#"><img src="../image/bootstrap-icons-1.10.3/server.svg" alt=""></a></li>
-                <li id="portfolio"><a href="#"><img src="../image/bootstrap-icons-1.10.3/display.svg" alt=""></a></li>
-                <li id="contact"><a href="#"><img src="../image/bootstrap-icons-1.10.3/envelope.svg" alt=""></a></li>
+                <li id="about"><a href="#card2"><img src="../image/bootstrap-icons-1.10.3/person.svg" alt=""></a></li>
+                <li id="resume"><a href="#card3"><img src="../image/bootstrap-icons-1.10.3/server.svg" alt=""></a></li>
+                <li id="portfolio"><a href="#card4"><img src="../image/bootstrap-icons-1.10.3/display.svg" alt=""></a></li>
+                <li id="contact"><a href="#card5"><img src="../image/bootstrap-icons-1.10.3/envelope.svg" alt=""></a></li>
             </ul>
         </nav>
     </header>
@@ -39,25 +40,29 @@
     <main>
         <div class="card1">
             <div class="image">
-
+               <img src="../image/logo.png" alt="">
             </div>
             <div class="generenom">
                 <h1>Jason Girardot</h1>
-                <p class="devo">Developpeur Front Junior</p>
+                <div id="text-container">
+                    <span id="text"></span>
+                  </div>
+                  
                 <ul>
                     <li id="insta"><a href="#"><img src="../image/bootstrap-icons-1.10.3/instagram.svg" /></a></li>
                     <li id="github"><a href="#"><img src="../image/bootstrap-icons-1.10.3/github.svg" /></a></li>
-                    <li id"linkedin><a href="#"><img src="../image/bootstrap-icons-1.10.3/linkedin.svg" /></a></li>
+                    <li id="linkedin"><a href="#"><img src="../image/bootstrap-icons-1.10.3/linkedin.svg" /></a></li>
                 </ul>
             </div>
             <div class="inputcvconct">
                 <ul>
-                    <li><a href="#"><input type="button" value="Télécharger mon CV"></a></li>
-                    <li><a href="#"><input type="button" value="Contacter-Moi"></a></li>
+                    <li><a href="../docs/CV-jason.pdf"><input type="button" value="Télécharger mon CV"></a></li>
+                    <li><a href="mailto: jasongirardot.adm@gmail.com"><input type="button" value="Contacter-Moi"></a></li>
                 </ul>
             </div>
         </div>
-        <div class="card2">
+
+        <div id="card2">
             <div class="apropro">
                 <h1 id="apdm"><span class="color">A Propos</span> de moi</h1>
                 <hr>
@@ -99,7 +104,7 @@
                 </ul>
             </div>    
         </div>
-        <div class="card3">
+        <div id="card3">
             <h1><span class="color">Curriculum</span> Vitae</h1>
             <hr>
             <div class="experience">
@@ -238,6 +243,14 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col">
+                            <div class="skill">
+                                <div class="content">
+                                    <span>57%</span>
+                                    <span>Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -255,12 +268,91 @@
 
             </div>
         </div>
-        <div class="card4">
-            
+
+        <div id="card4">
+            <div class="portfolio">
+                <h1 id="travaile"><span class="color">Mon</span> Portfolio</h1>
+                <hr>
+                <div class="site-1">
+                    <div class="image-site">    
+                        <button id="btn-image">Voir plus</button>  
+                    </div>
+                    <h4>Noms de Site</h4>
+                    <p>Et illum</p>
+                </div>
+                <div class="site-1">
+                    <div class="image-site">    
+                        <button id="btn-image">Voir plus</button>  
+                    </div>
+                    <h4>Noms de Site</h4>
+                    <p>Et illum</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="card5">
+            <div class="Contact-page">
+                <h1 id="ti-contact"><span class="color">Prendre</span> Contacte</h1>
+                <hr>
+                <div class="carte">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86684.43015914566!2d-1.6303746919532105!3d47.238327963924135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805ee81f0a8aead%3A0x40d37521e0ded30!2sNantes!5e0!3m2!1sfr!2sfr!4v1679921810276!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <ul>
+                    <li id="adresse"><span class="colorBloc">Adresse:</span>
+                        <p>Nantes, France</p>
+                    </li>
+                    <hr>
+                    <li id="mail"><span class="colorBloc">Email:</span>
+                        <p>jasongirardot.adm@gmail.com</p>
+                    </li>
+                    <hr>
+                    <li id="phone"><span class="colorBloc">Téléphone:</span>
+                        <p>(+33)783219751</p>
+                    </li>
+                    <hr>
+                    <li id="situation"><span class="colorBloc">Situation:</span>
+                        <p>Célibataire</p>
+                    </li>
+                </ul>
+                <div class="formulaire">
+                    <h3><span class="color">Posez</span> vos questions</h3>
+                    <hr>
+                    <form action="index.php" method="post">
+                        <div class="textInputWrapper">
+                           <input placeholder="Nom" type="text" class="textInput">
+                       </div>
+                       <div class="textInputWrapper">
+                           <input placeholder="Prénom" type="text" class="textInput">
+                       </div>
+                       <div class="textInputWrapper">
+                           <input placeholder="Email" type="mailto" class="textInput">
+                       </div>
+                       <div class="textInputWrapper">
+                           <input placeholder="Votre messages" type="text" class="textInput">
+                       </div>
+                       <button class="btn-submit" type="submit">
+                           <div class="svg-wrapper-1">
+                             <div class="svg-wrapper">
+                               <svg height="20" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                               </svg>
+                             </div>
+                           </div>
+                           <span>Send</span>
+                         </button>
+                   </form>
+                </div>
+                
+
+            </div>
         </div>
     </main>
 
-
+    <footer>
+        <p></p>
+    </footer>
 
 
 

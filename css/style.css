@@ -39,7 +39,7 @@ header{
 
 nav{
     width: 96%;
-    background: #0F0F0F;
+    background: #1E1E1E;
     border-radius: 15px;
 }
 header nav ul{
@@ -69,17 +69,34 @@ main{
 .card1{
     position: absolute;
     z-index: 10;
-    top: 15%;
+    top: 10%;
     width: 95%;
-    height: 560px;
-    background: #0F0F0F;
+    height: 600px;
+    background: #1E1E1E;
     border-radius: 20px;
     text-align: center;
 }
 
+.image{
+    position: absolute;
+    background: #000000;
+    border-radius: 5px;
+    z-index: 11;
+    width: 100%;
+    height: 400px;
+}
+
+.image img{
+    width: 300px;
+}
+
 .generenom{
     position: relative;
-    top: 260px;
+    z-index: 12;
+    top: 350px;
+    padding: 5px;
+    height: 150px;
+    background: #1E1E1E;
     /* border: 1px solid white; */
 }
 
@@ -87,12 +104,12 @@ main{
     font-size: 2.9em;
 }
 
-.generenom p
-{
-    margin: 2% 0 0 0;
+#text-container {
+    position: relative;
     font-size: 1.2em;
-}
-
+    color: #37fc10;
+  }
+  
 .generenom ul 
 {
     margin: 5% 0 0 0;
@@ -116,7 +133,7 @@ main{
 
 .inputcvconct{
     position: relative;
-    top: 350px;
+    top: 380px;
     display: flex;
     justify-content: center;
     height: 70px;
@@ -176,19 +193,21 @@ main{
 
 /* carte 2 */
 
-.card2{
-    position: absolute;
+#card2{
+    position: relative;
+
     z-index: 10;
     top: 700px;
     width: 95%;
     height: 950px;
-    background: #0F0F0F;
+    background: #1E1E1E;
     border-radius: 20px;
     text-align: center;
     margin: 0 0 5% 0;
 }
 
-.card2 h1{
+
+#card2 h1{
     margin: 20px 0;
 }
 
@@ -220,6 +239,7 @@ main{
 .colorBloc{
     background: #12FF0D;
     padding: 5px;
+    border-radius: 5px;
     color: black;
 }
 
@@ -266,18 +286,18 @@ hr{
 
 /* carte 3 */
 
-.card3{
+#card3{
     position: absolute;
     z-index: 10;
     top: 1670px;
     width: 95%;
     height: 2380px;
-    background: #0F0F0F;
+    background: #1E1E1E;
     border-radius: 20px;
     margin: 0 0 5% 0;
 }
 
-.card3 h1{
+#card3 h1{
     margin: 20px 0;
     text-align: center;
 }
@@ -314,7 +334,7 @@ hr{
     border: 1px solid #11ff0de3;
     padding: 5px;
     font-size: 0.9em;
-    width: 46%;
+    width: 48%;
 }
 
 .Alternance .name{
@@ -335,7 +355,7 @@ hr{
 .theTribe .date{
     border: 1px solid rgba(255, 255, 255, 0.74) ;
     color: rgba(255, 255, 255, 0.74);
-    width: 25%;
+    width: 27%;
     padding: 5px;
     font-size: 0.9em;
 }
@@ -412,7 +432,7 @@ hr{
 .prepa .date{
     border: 1px solid rgba(255, 255, 255, 0.74) ;
     color: rgba(255, 255, 255, 0.74);
-    width: 36%;
+    width: 38%;
     padding: 5px;
     font-size: 0.9em;
 }
@@ -542,6 +562,9 @@ progress {color: #12FF0D;}
 .row .col:nth-child(5) .skill{
     background: conic-gradient(#12FF0D  25%, transparent 0);
 }
+.row .col:nth-child(6) .skill{
+    background: conic-gradient(#12FF0D  56%, transparent 0);
+}
 .row .col .skill::before{
     content: '';
     position: absolute;
@@ -601,3 +624,309 @@ progress {color: #12FF0D;}
     width: 30px;
     margin-right: 10px;
 }
+
+
+
+/* Carte 4 */
+
+#card4{
+    position: absolute;
+    z-index: 10;
+    top: 4070px;
+    width: 95%;
+    height: 85%;
+    background: #1E1E1E;
+    border-radius: 20px;
+    margin: 0 0 5% 0;
+}
+
+#card4 h1{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.site-1{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-1:hover
+{
+    color: #12FF0D;
+}
+
+.site-1 .image-site
+{
+    position: relative;
+    z-index: 10;
+    margin: 25px 0;
+    background: rgba(133, 133, 133, 0.582);
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    /* transition: 0.3s linear; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-1 .image-site #btn-image{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    overflow: none;
+    color: black;
+    background: rgb(149, 248, 18);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    /* opacity: 0;
+    z-index: 12;
+    transition: 0.2s linear; */
+}
+
+/* .site-1 .image-site:hover #btn-image
+{
+    opacity: 0.6;
+    transition: 0.2s linear;
+    transform: translateY(-100%);
+    z-index: -3;
+} */
+
+/* .site-1 .image-site:hover
+{
+    transition: 0.3s linear;
+    transform: scaleX(1.2) scaleY(1.1);
+} */
+
+.site-1 h4{
+    font-size: 1.3em;
+}
+
+.site-1 p{
+    color: rgba(255, 255, 255, 0.74);;
+}
+
+
+
+
+
+/* Carte 5 */
+
+#card5{
+    position: absolute;
+    z-index: 10;
+    top: 4740px;
+    width: 95%;
+    height: 1000px;
+    background: #1E1E1E;
+    border-radius: 20px;
+    margin: 0 0 5% 0;
+}
+
+#card5 h1{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.carte
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    padding: 10px;
+}
+
+.Contact-page ul{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-page ul li{
+    padding: 15px 30px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Contact-page ul li p{
+    color: rgba(255, 255, 255, 0.74);
+    margin: 0 0 0 15px;
+}
+
+
+
+
+
+.formulaire h3{
+    margin: 30px 0 10px 10px;
+    font-size: 1.3em;
+}
+
+form
+{
+    margin-top: 3%;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.textInputWrapper {
+    position: relative;
+    width: 70%;
+    margin: 12px 5px;
+    --accent-color: #7ffc41;
+  }
+  
+  .textInputWrapper:before {
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  }
+  
+  .textInputWrapper:before,
+  .textInputWrapper:after {
+    content: "";
+    left: 0;
+    right: 0;
+    position: absolute;
+    pointer-events: none;
+    bottom: -1px;
+    z-index: 4;
+    width: 100%;
+  }
+  
+  .textInputWrapper:focus-within:before {
+    border-bottom: 1px solid var(--accent-color);
+  }
+  
+  .textInputWrapper:before {
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  }
+  
+  .textInputWrapper:focus-within:before {
+    border-bottom: 1px solid var(--accent-color);
+    transform: scaleX(1);
+  }
+  
+  .textInputWrapper:focus-within:after {
+    border-bottom: 2px solid var(--accent-color);
+    transform: scaleX(1);
+  }
+  
+  .textInputWrapper:after {
+    content: "";
+    transform: scaleX(0);
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    will-change: transform;
+    border-bottom: 2px solid var(--accent-color);
+    border-bottom-color: var(--accent-color);
+  }
+  
+  .textInput::placeholder {
+    transition: opacity 250ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    opacity: 1;
+    user-select: none;
+    color: rgba(255, 255, 255, 0.582);
+  }
+  
+  .textInputWrapper .textInput {
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 2px 5px rgb(35 35 35 / 30%);
+    max-height: 36px;
+    background-color: #252525;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 200ms;
+    transition-property: background-color;
+    color: #e8e8e8;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px;
+    width: 100%;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  
+  .textInputWrapper .textInput:focus,
+  .textInputWrapper .textInput:active {
+    outline: none;
+  }
+  
+  .textInputWrapper:focus-within .textInput,
+  .textInputWrapper .textInput:focus,
+  .textInputWrapper .textInput:active {
+    background-color: #353535;
+  }
+  
+  .textInputWrapper:focus-within .textInput::placeholder {
+    opacity: 0;
+  }
+  
+
+ .btn-submit{
+    margin-top: 10px;
+    font-family: 'josefinsans';
+    font-size: 20px;
+    background: #12FF0D;
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+    padding-left: 0.9em;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  
+  .btn-submit span {
+    display: block;
+    margin-left: 0.3em;
+    margin-top: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-submit svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .btn-submit:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  .btn-submit:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  .btn-submit:hover span {
+    transform: translateX(5em);
+  }
+  
+  .btn-submit:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
