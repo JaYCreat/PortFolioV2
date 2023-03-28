@@ -1,0 +1,35 @@
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    
+    header{
+        transform: rotate(90deg);
+        top: 240px;
+        left: -100px;
+    }
+
+    header nav ul li a img{
+        transform: rotate(-90deg);
+    }
+    
+    main{
+        display: flex;
+        justify-content: right;
+        align-content: space-between;
+    }
+    
+    .card1, .card2, .card3, .card4, .card5{
+        border: 1px solid white;
+        min-width: 580px;
+        position: relative;
+        left: 150px;
+    }
+
+    .card1{
+        min-height: 800px;
+    }
+
+    .card2{
+        position: absolute;
+        margin-top: 200px;
+    }
+    
+}

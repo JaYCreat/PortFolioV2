@@ -70,7 +70,7 @@ main{
     position: absolute;
     z-index: 10;
     top: 10%;
-    width: 95%;
+    width: 360px;
     height: 600px;
     background: #1E1E1E;
     border-radius: 20px;
@@ -193,12 +193,11 @@ main{
 
 /* carte 2 */
 
-#card2{
-    position: relative;
-
+.card2{
+    position: absolute;
     z-index: 10;
     top: 700px;
-    width: 95%;
+    width: 360px;
     height: 950px;
     background: #1E1E1E;
     border-radius: 20px;
@@ -207,7 +206,7 @@ main{
 }
 
 
-#card2 h1{
+.card2 h1{
     margin: 20px 0;
 }
 
@@ -286,18 +285,18 @@ hr{
 
 /* carte 3 */
 
-#card3{
+.card3{
     position: absolute;
     z-index: 10;
     top: 1670px;
-    width: 95%;
+    width: 360px;
     height: 2380px;
     background: #1E1E1E;
     border-radius: 20px;
     margin: 0 0 5% 0;
 }
 
-#card3 h1{
+.card3 h1{
     margin: 20px 0;
     text-align: center;
 }
@@ -629,18 +628,18 @@ progress {color: #12FF0D;}
 
 /* Carte 4 */
 
-#card4{
+.card4{
     position: absolute;
     z-index: 10;
     top: 4070px;
-    width: 95%;
+    width: 360px;
     height: 85%;
     background: #1E1E1E;
     border-radius: 20px;
     margin: 0 0 5% 0;
 }
 
-#card4 h1{
+.card4 h1{
     margin: 20px 0;
     text-align: center;
 }
@@ -715,18 +714,18 @@ progress {color: #12FF0D;}
 
 /* Carte 5 */
 
-#card5{
+.card5{
     position: absolute;
     z-index: 10;
     top: 4740px;
-    width: 95%;
+    width: 360px;
     height: 1000px;
     background: #1E1E1E;
     border-radius: 20px;
     margin: 0 0 5% 0;
 }
 
-#card5 h1{
+.card5 h1{
     margin: 20px 0;
     text-align: center;
 }
