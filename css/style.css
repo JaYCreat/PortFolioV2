@@ -319,7 +319,7 @@ hr{
     color: #11ff0de3;
     border: 1px solid #11ff0de3;
     padding: 5px;
-    font-size: clamp(10px, 4vw, 30px);
+    font-size: clamp(15px, 2vw, 30px);
     width: 130px;
 }
 
@@ -342,7 +342,7 @@ hr{
     border: 1px solid rgba(255, 255, 255, 0.74) ;
     color: rgba(255, 255, 255, 0.74);
     padding: 5px;
-    font-size: clamp(10px, 4vw, 30px);
+    font-size: clamp(15px, 2vw, 30px);
     width: 70px;
 }
 
@@ -399,7 +399,7 @@ hr{
     color: #11ff0de3;
     border: 1px solid #11ff0de3;
     padding: 5px;
-    font-size: clamp(10px, 4vw, 30px);
+    font-size: clamp(15px, 2vw, 30px);
     width: 60px;
 }
 
@@ -419,7 +419,7 @@ hr{
     border: 1px solid rgba(255, 255, 255, 0.74) ;
     color: rgba(255, 255, 255, 0.74);
     padding: 5px;
-    font-size: clamp(10px, 4vw, 30px);
+    font-size: clamp(15px, 2vw, 30px);
     width: 100px;
 }
 
@@ -606,7 +606,7 @@ progress {color: #12FF0D;}
     margin: 5% 0;
     list-style: none;
     display: flex;
-    font-size: clamp(1em, 5vw, 7vw);
+    font-size: clamp(1em, 3vw, 7vw);
     align-items: center;
     justify-content: center;
 }

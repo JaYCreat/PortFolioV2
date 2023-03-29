@@ -2,24 +2,27 @@
 @media only screen and (max-width: 820px) and (min-width: 768px) {
     
     header{
+        transform: translateY(150px) translateX(240px);
         min-width: 412px;
-        min-height: 60px;
+        height: 40px;
+        rotate: 90deg;
     }
     
     header nav ul li a img{
         min-height: 40px;
+        rotate: -90deg;
     }
 
     .central{
-        margin-left: 2%;
+       transform:  translateX(150px) ;
     }
 
     .card1, .card2, .card3, .card4, .card5{
-        min-width: 397px;
+        min-width: 550px;
     }
 
     .inputcvconct{
-        min-width: 375px;
+        min-width: 550px;
     }
 
     .generenom h1
