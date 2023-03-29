@@ -46,3 +46,14 @@ function type() {
 
 
 type();
+
+
+// map media 
+
+L.mapquest.key = 'mWniJSNZnvSDUmAwPg3p5qgROUBqBEgb';
+
+var map = L.mapquest.map('map', {
+center: [47.218371, -1.553621], // Coordonnées de Nantes, France
+layers: L.mapquest.tileLayer('map'),
+zoom: 12
+});
