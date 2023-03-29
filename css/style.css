@@ -13,11 +13,11 @@ html{
     color: #12FF0D;
 }
 
-/* width */
+
+  /* width */
 ::-webkit-scrollbar {
     display: none;
   }
-  
 
 body
 {
@@ -718,16 +718,10 @@ progress {color: #12FF0D;}
     text-align: center;
 }
 
-.carte
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-iframe{
-    padding: 10px 60px;
-}
-
+#map {
+    width: 100%;
+    height: 300px;
+  }
 .Contact-page ul{
 
     margin: 15 0px;
