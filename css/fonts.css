@@ -1,0 +1,10 @@
+@font-face
+{
+    font-family: 'josefinsans';
+    src: url('../fonts/jos/JosefinSans-VariableFont_wght.woff2') format('woff2'),
+         url('../fonts/jos/JosefinSans-VariableFont_wght.woff') format('woff'),
+         url('../fonts/jos/JosefinSans-VariableFont_wght.ttf') format('ttf'),
+         url('../fonts/jos/JosefinSans-VariableFont_wght.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
