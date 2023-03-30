@@ -30,8 +30,8 @@ header{
     position: fixed;
     z-index: 100;
     top: 15px;
-    width: 280px;
-    height: 55px;
+    min-width: 280px;
+    min-height: 55px;
     z-index: 100;
     display: flex;
     justify-content: center;
@@ -224,11 +224,12 @@ header nav ul li a img{
 
 .apropro ul li p{
     color: rgba(255, 255, 255, 0.74);
+    font-size: clamp(15px, 3vw, 20px);
 }
 
 .colorBloc{
     background: #12FF0D;
-    padding: 5px;
+    padding: clamp(5px, 2vw, 10px);
     border-radius: 5px;
     color: black;
 }
@@ -242,7 +243,7 @@ hr{
 
 
 .fun ul{
-    margin-top: 10%;
+    margin-top: 6%;
     /* border: 1px solid white; */
     height: 100%;
     display: grid;
@@ -279,7 +280,7 @@ hr{
 .card3{
     grid-area: 3 / 2 / 4 / 3;
     width: 280px;
-    min-height: 2230px;
+    min-height: 2180px;
     background: #1E1E1E;
     border-radius: 20px;
 }
@@ -586,14 +587,14 @@ progress {color: #12FF0D;}
 
 
 .ti-savoir{
-    font-size: 1.6em;
+    font-size: clamp(1.7em, 5vw, 3em);
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
 
 .ti-savoir img{
-    width: 30px;
+    width: clamp(30px, 6vw, 60px);
     margin: 0 10px 0 5px;
 }
 
@@ -603,16 +604,16 @@ progress {color: #12FF0D;}
 }
 
 .savoirFaire ul li{
-    margin: 5% 0;
+    margin: 2% 0;
     list-style: none;
     display: flex;
-    font-size: clamp(1em, 3vw, 7vw);
+    font-size: clamp(1em, 2.7vw, 3.5em);
     align-items: center;
     justify-content: center;
 }
 
 .savoirFaire ul li img{
-    width: 30px;
+    width: clamp(25px, 4vw, 50px);
     margin-right: 10px;
 }
 
@@ -623,7 +624,7 @@ progress {color: #12FF0D;}
 .card4{
     grid-area: 4 / 2 / 5 / 3;
     width: 280px;
-    height: 650px;
+    min-height: 650px;
     background: #1E1E1E;
     border-radius: 20px;
 
@@ -639,6 +640,7 @@ progress {color: #12FF0D;}
     height: 270px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -655,7 +657,7 @@ progress {color: #12FF0D;}
     background: rgba(133, 133, 133, 0.582);
     border-radius: 10px;
     width: 90%;
-    height: 200px;
+    min-height: 200px;
     /* transition: 0.3s linear; */
     display: flex;
     justify-content: center;
@@ -671,7 +673,7 @@ progress {color: #12FF0D;}
     background: rgb(149, 248, 18);
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px clamp(10px, 3.58vw, 45px);
     /* opacity: 0;
     z-index: 12;
     transition: 0.2s linear; */
@@ -708,7 +710,7 @@ progress {color: #12FF0D;}
 .card5{
     grid-area: 5 / 2 / 6 / 3;
     width: 280px;
-    height: 1000px;
+    min-height: 1000px;
     background: #1E1E1E;
     border-radius: 20px;
 
@@ -742,17 +744,22 @@ progress {color: #12FF0D;}
 
 .Contact-page ul li p{
     color: rgba(255, 255, 255, 0.836);
-    font-size: 0.8em;
+    font-size: clamp(0.8em, 3vw, 1.2em);
     margin: 0 0 0 15px;
 }
 
-
+.colorBloc2{
+    background: #12FF0D;
+    padding: clamp(5px, 2vw, 10px);
+    border-radius: 5px;
+    color: black;
+}
 
 
 
 .formulaire h3{
     margin: 30px 0 10px 10px;
-    font-size: 1.3em;
+    font-size: clamp(1.3em, 4vw, 1.8em);
 }
 
 form
