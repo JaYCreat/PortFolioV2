@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
     <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link rel="stylesheet" href="css/media/desktop.css">
+    <link rel="stylesheet" href="css/media/laptop.css">
     <link rel="stylesheet" href="css/media/formatPhone.css">
     <link rel="stylesheet" href="css/media/tablete.css">
-    <link rel="index" media="screen and (min-width: 1280px)" href="html/desktop/laptop.html">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
@@ -34,10 +35,31 @@
     <header>
         <nav>
             <ul>
-                <li id="about"><a href="#pro"><img src="image/bootstrap-icons-1.10.3/person.svg" alt=""></a></li>
-                <li id="resume"><a href="#cur"><img src="image/bootstrap-icons-1.10.3/server.svg" alt=""></a></li>
-                <li id="portfolio"><a href="#pre"><img src="image/bootstrap-icons-1.10.3/display.svg" alt=""></a></li>
-                <li id="contact"><a href="#cont"><img src="image/bootstrap-icons-1.10.3/envelope.svg" alt=""></a></li>
+                <li id="about"><a id="nav-about" href="#pro">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(255, 255, 255, 0.74)" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                      </svg>
+                    <p>About</p></a></li>
+                <li id="resume"><a id="nav-resume" href="#cur">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(255, 255, 255, 0.74)" class="bi bi-server" viewBox="0 0 16 16">
+                        <path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z"/>
+                        <path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z"/>
+                        <path d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z"/>
+                      </svg>
+                    <p>Resume</p></a></li>
+                <li id="portfolio"><a id="nav-portfolio" href="#pre">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(255, 255, 255, 0.74)" class="bi bi-display" viewBox="0 0 16 16">
+                    <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
+                  </svg>
+                  <p>Portfolio</p>
+                </a></li>
+                <li id="contact"><a id="nav-contact"  href="#cont">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(255, 255, 255, 0.74)" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                    </svg>
+                     <p>Contact</p>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -71,12 +93,11 @@
             <div class="apropro">
                 <h1 id="apdm"><span class="color">A Propos</span> de moi</h1>
                 <hr>
-                <p id="paraPresentation">Bonjour ! Je suis Jason Girardot.<br>
+                <p id="paraPresentation">Bonjour ! Je suis Jason Girardot.
                     Développeur frontend basée en France, à Nantes.
-                    J'ai une faible experience dans le développement en général.
-                    Je suis actuellement en recherche d'une entreprise pour mon alternance,
-                    pour évoluer mes compétances et de faire de nouvelle rencontre pour
-                    acroitre mon réseau.
+                    J'ai une faible expérience dans le développement en général.
+                    Je suis actuellement en recherche d'une entreprise pour mon alternance. 
+                    Pour évoluer mes compétences et de faire de nouvelle rencontre pour accroître mon réseau professionnel.
                 </p>
                 <ul>
                     <li id="age"><span class="colorBloc">Age:</span>
@@ -103,8 +124,8 @@
                 <hr>
                 <ul>
                     <li><img src="image/bootstrap-icons-1.10.3/cup.svg" alt="une tasse"><p>400 cafés à mon actif</p></li>
-                    <li><img src="image/bootstrap-icons-1.10.3/trophy.svg" alt="Trophé"><p>Vainqueur du tournoi hivernaux de tir à l'arc</p></li>
-                    <li><img src="image/bootstrap-icons-1.10.3/disc-fill.svg" alt="une tasse"><p>Sorti d'un Single sur les platformes de streaming</p></li>
+                    <li><img src="image/bootstrap-icons-1.10.3/trophy.svg" alt="Trophé"><p>Vainqueur du tournoi hivernal de tir à l'arc</p></li>
+                    <li><img src="image/bootstrap-icons-1.10.3/disc-fill.svg" alt="une tasse"><p>Sorti d'un Single sur les plateformes de streaming</p></li>
                     <li><img src="image/bootstrap-icons-1.10.3/pen.svg" alt="Trophé"><p>Poète à mes heures perdu</p></li>
                 </ul>
             </div>    
@@ -122,7 +143,7 @@
 					<div class="name">Alternance</div>
 					<div class="company">WebForce 3</div>
 					<p>
-                        Apprentisage appronfondi des languages de programations Frontend, 
+                        Apprentissage approfondi des langages de programmations Frontend,
                         Backend et apprentissage de l'UI/UX design. 
 					</p>
 				</div>
@@ -133,8 +154,8 @@
 					<div class="company">The Tribe</div>
 					<p>
                         Compréhension du fonctionnement d'une entreprise de développement.
-                        Lancement d'un projet avec une équipe, 
-                        faire un projet personnel en prenant en comptes
+                        Lancement d'un projet avec une équipe,
+                        faire un projet personnel en prenant en compte
                         les méthodes de recherches, de créations, et de développement de l'entreprise.
 					</p>
 				</div>
@@ -149,7 +170,7 @@
 					<div class="name">Autodidacte</div>
 					<div class="company"></div>
 					<p>
-                        Apprentissage des languages de programations, Prompte Engineering, et ux/ui design
+                        Apprentissage des langages de programmations, Prompte Engineering, et ux/ui design
 					</p>
 				</div>
                 <hr>
@@ -268,7 +289,7 @@
                         <li><img src="../image/bootstrap-icons-1.10.3/check-lg.svg" alt="">Mise en ligne d'un site web</li>
                         <li><img src="../image/bootstrap-icons-1.10.3/check-lg.svg" alt="">Création de logo</li>
                         <li><img src="../image/bootstrap-icons-1.10.3/check-lg.svg" alt="">Responsive Design</li>
-                        <li><img src="../image/bootstrap-icons-1.10.3/check-lg.svg" alt="">Site web dynamiques</li>
+                        <li><img src="../image/bootstrap-icons-1.10.3/check-lg.svg" alt="">Sites web dynamiques</li>
                         <li><img src="../image/bootstrap-icons-1.10.3/check-lg.svg" alt="">Prompte Engineering</li>
                     </ul>
                 </div>
@@ -325,7 +346,7 @@
                 <div class="formulaire">
                     <h3><span class="color">Posez</span> vos questions</h3>
                     <hr>
-                    <form action="index.php" method="post">
+                    <form action="https://formsubmit.co/your@email.com" method="POST" id="contact-form">
                         <div class="textInputWrapper">
                            <input placeholder="Nom" type="text" class="textInput">
                        </div>

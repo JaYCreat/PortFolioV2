@@ -8,7 +8,7 @@
         rotate: 90deg;
     }
     
-    header nav ul li a img{
+    header nav ul li a {
         min-height: 40px;
         rotate: -90deg;
     }
@@ -103,7 +103,7 @@
 
 }
 
-/* Ipad mini */
+/* Ipad air*/
 @media only screen and (max-width: 1024px) and (min-width: 820px) {
     
     header{
@@ -113,7 +113,7 @@
         rotate: 90deg;
     }
     
-    header nav ul li a img{
+    header nav ul li a{
         min-height: 40px;
         rotate: -90deg;
     }
@@ -219,7 +219,7 @@
         rotate: 90deg;
     }
     
-    header nav ul li a img{
+    header nav ul li a{
         min-height: 40px;
         rotate: -90deg;
     }
