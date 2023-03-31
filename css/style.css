@@ -122,7 +122,7 @@ header nav ul li a p{
 .card1{
     margin-top: 110px;
     grid-area: 1 / 2 / 2 / 3; 
-    width: 280px;
+    min-width: 280px;
     min-height: 510px;
     background: #1E1E1E;
     border-radius: 20px;
@@ -222,7 +222,7 @@ header nav ul li a p{
 
 .card2{
     grid-area: 2 / 2 / 3 / 3;
-    width: 280px;
+    min-width: 280px;
     min-height: 900px;
     background: #1E1E1E;
     border-radius: 20px;
@@ -300,11 +300,12 @@ hr{
 
 .fun ul li img{
     margin: 0 0 10px 0;
-    width: clamp(50px, 7vw, 80px);
+    width: clamp(50px, 9vw, 110px);
 }
 
 .fun ul li p{
     color: rgba(255, 255, 255, 0.904);
+    font-size: clamp(14px, 2vw, 20px);
 }
 
 
@@ -313,7 +314,7 @@ hr{
 
 .card3{
     grid-area: 3 / 2 / 4 / 3;
-    width: 280px;
+    min-width: 280px;
     min-height: 2180px;
     background: #1E1E1E;
     border-radius: 20px;
@@ -657,7 +658,7 @@ progress {color: #12FF0D;}
 
 .card4{
     grid-area: 4 / 2 / 5 / 3;
-    width: 280px;
+    min-width: 280px;
     min-height: 650px;
     background: #1E1E1E;
     border-radius: 20px;
@@ -666,7 +667,7 @@ progress {color: #12FF0D;}
 
 .card4 h1{
     margin: 20px 0;
-    font-size: clamp(2em, 5vw, 4em);
+    font-size: clamp(2em, 4vw, 3em);
     text-align: center;
 }
 
@@ -743,7 +744,7 @@ progress {color: #12FF0D;}
 
 .card5{
     grid-area: 5 / 2 / 6 / 3;
-    width: 280px;
+    min-width: 280px;
     min-height: 1000px;
     background: #1E1E1E;
     border-radius: 20px;
@@ -752,7 +753,7 @@ progress {color: #12FF0D;}
 
 .card5 h1{
     margin: 20px 0;
-    font-size: clamp(2em, 5vw, 4em);
+    font-size: clamp(2em, 3vw, 3em);
     text-align: center;
 }
 
