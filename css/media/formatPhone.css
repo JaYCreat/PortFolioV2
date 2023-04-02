@@ -207,9 +207,17 @@
     .prepa .date{
         min-width: 145px;
     }
+    
+    .card2{
+        height: 1100px;
+    }
 
     .card3{
-        height: 2230px;
+        height: 2300px;
+    }
+
+    .card5{
+        height: 1030px;
     }
 
 
@@ -218,4 +226,8 @@
         min-height: 140px;
     }    
 
+    .savoirFaire ul
+    {
+    margin-top: 20px;
+    }
 }

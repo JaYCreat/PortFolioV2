@@ -37,7 +37,7 @@
     }
 
     .card2{
-        height: 930px;
+        height: 1030px;
     }
 
 
@@ -150,7 +150,7 @@
     }
 
     .card2{
-        height: 980px;
+        height: 1100px;
     }
 
 
@@ -350,14 +350,15 @@
     }
 
     header{
-        margin-top: 550px;
+        margin-top: 450px;
         margin-right: 55%;
         grid-area: 2 / 2 / 3 / 3;
-        max-width: 342px;
+        max-width: 332px;
         height: 60px;
         rotate: 90deg;
     }
-    
+
+
     header nav ul li a{
         min-height: 40px;
         rotate: -90deg;

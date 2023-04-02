@@ -10,8 +10,9 @@
     }
 
     header{
+
         grid-area: 2 / 2 / 3 / 3;
-        margin-top: 550px;
+        margin-top: 500px;
         margin-right: 60%;
         width: 442px;
         height: 60px;
@@ -264,7 +265,7 @@
 
 
     .card3{
-       height: 3030px;
+       height: 3430px;
        padding: 2%;
     }
 
