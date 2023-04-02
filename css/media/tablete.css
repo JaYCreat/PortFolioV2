@@ -12,7 +12,7 @@
 
     header{
         
-        margin-top: 550px;
+        margin-top: 450px;
         margin-right: 670px;
         grid-area: 2 / 2 / 3 / 3;
         max-width: 342px;
@@ -199,19 +199,18 @@
     }
 
     .Alternance .date{
-        min-width: 190px;
+        min-width: 220px;
     }
 
     .theTribe .date{
-        min-width: 100px;
+        min-width: 115px;
     }
 
     .Autodidacte .date{
-        min-width: 80px;
+        min-width: 90px;
     }
-
     .prepa .date{
-        min-width: 145px;
+        min-width: 170px;
     }
 
     .card3{
