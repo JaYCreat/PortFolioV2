@@ -709,7 +709,8 @@ progress {color: #12FF0D;}
     position: relative;
     z-index: 10;
     margin: 25px 0;
-    background: rgba(133, 133, 133, 0.582);
+    background-image: url(../image/site-web/Music-zones.png);
+    background-size: cover;
     border-radius: 10px;
     width: 90%;
     min-height: 200px;
@@ -724,39 +725,80 @@ progress {color: #12FF0D;}
     top: 86%;
     left: calc(71%, -100%);
     overflow: none;
+   
+    background: rgb(149, 248, 18);
+    border: none;
+    border-radius: 5px;
+    padding: 10px clamp(10px, 3.58vw, 45px);
+}
+
+.site-1 .image-site #btn-image a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.site-2 h4{
+    font-size: 1.3em;
+}
+
+.site-2 p{
+    color: rgba(255, 255, 255, 0.74);;
+}
+
+.site-2{
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-2:hover
+{
+    color: #12FF0D;
+}
+
+.site-2 .image-site
+{
+    position: relative;
+    z-index: 10;
+    margin: 25px 0;
+    background: rgba(133, 133, 133, 0.582);
+    border-radius: 10px;
+    width: 90%;
+    min-height: 200px;
+    /* transition: 0.3s linear; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-2 .image-site #btn-image{
+    position: absolute;
+    top: 86%;
+    left: calc(71%, -100%);
+    overflow: none;
     color: black;
     background: rgb(149, 248, 18);
     border: none;
     border-radius: 5px;
     padding: 10px clamp(10px, 3.58vw, 45px);
-    /* opacity: 0;
-    z-index: 12;
-    transition: 0.2s linear; */
 }
 
-/* .site-1 .image-site:hover #btn-image
-{
-    opacity: 0.6;
-    transition: 0.2s linear;
-    transform: translateY(-100%);
-    z-index: -3;
-} */
 
-/* .site-1 .image-site:hover
-{
-    transition: 0.3s linear;
-    transform: scaleX(1.2) scaleY(1.1);
-} */
 
-.site-1 h4{
+.site-2 h4{
     font-size: 1.3em;
 }
 
-.site-1 p{
+.site-2 p{
     color: rgba(255, 255, 255, 0.74);;
 }
 
-
+.site-2 .image-site #btn-image a{
+    color: #000000;
+    text-decoration: none;
+}
 
 
 
