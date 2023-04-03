@@ -11,7 +11,7 @@
     }
 
     header{
-        
+        grid-area: 2 / 2 / 3 / 3;
         margin-top: 450px;
         margin-right: 670px;
         grid-area: 2 / 2 / 3 / 3;
@@ -125,6 +125,7 @@
     }
 
     header{
+        grid-area: 2 / 2 / 3 / 3;
         margin-top: 450px;
         margin-right: 80%;
         grid-area: 2 / 2 / 3 / 3;
@@ -238,7 +239,8 @@
     }
 
     header{
-        margin-top: 550px;
+        grid-area: 2 / 2 / 3 / 3;
+        margin-top: 450px;
         margin-right: 70%;
         grid-area: 2 / 2 / 3 / 3;
         max-width: 342px;
@@ -350,6 +352,7 @@
     }
 
     header{
+        grid-area: 2 / 2 / 3 / 3;
         margin-top: 450px;
         margin-right: 55%;
         grid-area: 2 / 2 / 3 / 3;
