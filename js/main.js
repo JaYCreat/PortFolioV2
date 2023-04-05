@@ -40,7 +40,7 @@ function type() {
     textElement.textContent = currentText;
     charIndex++;
    
-    setTimeout(type, 200);
+    setTimeout(type, 100);
   }
 }
 
