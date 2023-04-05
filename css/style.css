@@ -369,7 +369,7 @@ hr{
 
 
 .Alternance{
-    margin: 30px 0;
+    margin: 30px 0 30px 5px;
 }
 
 .Alternance .date{
@@ -392,7 +392,7 @@ hr{
 
 
 .theTribe{
-    margin: 30px 0;
+    margin: 30px 0 30px 5px;
 }
 
 .theTribe .date{
@@ -423,7 +423,7 @@ hr{
 
 .education
 {
-    margin: 15px 0;
+    margin: 30px 0 30px 5px;
 }
 .education p{
     color: rgba(255, 255, 255, 0.74);
@@ -469,7 +469,7 @@ hr{
 
 
 .prepa{
-    margin: 30px 0;
+    margin: 30px 0 30px 5px;
 }
 
 .prepa .date{
@@ -680,7 +680,7 @@ progress {color: #12FF0D;}
 .card4{
     grid-area: 4 / 2 / 5 / 3;
     min-width: 280px;
-    min-height: 650px;
+    min-height: 660px;
     background: #1E1E1E;
     border-radius: 20px;
 
@@ -690,6 +690,9 @@ progress {color: #12FF0D;}
     margin: 20px 0;
     font-size: clamp(2em, 4vw, 3em);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content:space-evenly ;
 }
 
 .site-1{
@@ -698,6 +701,7 @@ progress {color: #12FF0D;}
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 1.5em;
 }
 
 .site-1:hover
@@ -715,7 +719,6 @@ progress {color: #12FF0D;}
     border-radius: 10px;
     width: 90%;
     min-height: 200px;
-    /* transition: 0.3s linear; */
     display: flex;
     justify-content: center;
     align-items: center;
