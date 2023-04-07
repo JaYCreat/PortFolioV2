@@ -602,16 +602,16 @@ progress {color: #12FF0D;}
     background: conic-gradient(#12FF0D  85%, transparent 0);
 }
 .row .col:nth-child(3) .skill{
-    background: conic-gradient(#12FF0D  60%, transparent 0);
+    background: conic-gradient(#12FF0D  55%, transparent 0);
 }
 .row .col:nth-child(4) .skill{
-    background: conic-gradient(#12FF0D  10%, transparent 0);
+    background: conic-gradient(#12FF0D  50%, transparent 0);
 }
 .row .col:nth-child(5) .skill{
-    background: conic-gradient(#12FF0D  25%, transparent 0);
+    background: conic-gradient(#12FF0D  15%, transparent 0);
 }
 .row .col:nth-child(6) .skill{
-    background: conic-gradient(#12FF0D  56%, transparent 0);
+    background: conic-gradient(#12FF0D  27%, transparent 0);
 }
 .row .col .skill::before{
     content: '';
